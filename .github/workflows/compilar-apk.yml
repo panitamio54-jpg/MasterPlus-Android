@@ -14,8 +14,8 @@ jobs:
       - name: Descomprimir proyecto
         run: |
           unzip MasterPlus_Android_v1_Proyecto.zip
-          cp -r MasterPlus_Android_v1_Proyecto/* .
-          cp -r MasterPlus_Android_v1_Proyecto/.github . 2>/dev/null || true
+          cp -r MasterPlus_Android_v1/* .
+          cp -r MasterPlus_Android_v1/.github . 2>/dev/null || true
 
       - name: Configurar Java 17
         uses: actions/setup-java@v4
